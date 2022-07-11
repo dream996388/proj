@@ -9,7 +9,8 @@ label_img=None
 ori_img=None
 dataset_split='val'
 # list dir names in the directory
-path=rf'D:\AI\colab\proj\PaddleSeg\custom_dataset\KolektorSDD\\{dataset_split}'
+# path=rf'D:\AI\colab\proj\PaddleSeg\custom_dataset\KolektorSDD\\{dataset_split}'
+path=r'D:\AI\real image\KolektorSDD-boxes'
 dir_names = [f for f in os.listdir(path) if os.path.isdir(os.path.join(path, f))]
 # print(len(dir_names))
 text=''
@@ -19,16 +20,16 @@ for dir_name in dir_names:
     # if file extension is '.bmp', read this image as label image
     for file in os.listdir(dir_path):
         if file.endswith(".bmp"):
-            label_img = cv2.imread(os.path.join(dir_path, file))
-            colormap=label_colormap(255)
-            label_img_pil=to_indeximg(label_img,colormap)
+            label_img = cv2.imread(os.path.join(dir_path, file),cv.IMREAD_UNCHANGED )
+            # colormap=label_colormap(255)
+            # label_img_pil=to_indeximg(label_img,colormap)
+            # label_img_pil.save(os.path.join(dir_path, file.replace('.bmp', '.png')))
+            _,label_img=cv.threshold(label_img, 0, 1, cv.THRESH_BINARY)
             cv2.imwrite(os.path.join(dir_path, file.replace('.bmp', '.png')), label_img)
-            label_img_pil.save(os.path.join(dir_path, file.replace('.bmp', '.png')))
             # delete the file
-            os.remove(os.path.join(dir_path, file))
+            # os.remove(os.path.join(dir_path, file))
     # create a blank image with the size '500x500'
     # ori_img = np.zeros((500, 500, 3), np.uint8)
-    # show ori_img
     # cv2.imshow('ori_img', ori_img)
     # cv2.waitKey(0)
     # cv2.destroyAllWindows()
