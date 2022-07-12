@@ -111,4 +111,12 @@ def fill_random_color(black,m,n):
 
     return seg_img
 
-
+if __name__ == '__main__':
+    # read image
+    img=cv.imread('D:\AI\colab\Texture Reformer\main.py\inputs\sdd\part29\style-transfer_test4\cont.jpg',0)
+    out=fill_random_color(img,2,3)
+    # show out img
+    cv.imshow('out', out)
+    cv.waitKey(0)
+    cv.destroyAllWindows()
+    cv.imwrite('D:\AI\colab\Texture Reformer\main.py\inputs\sdd\part29\style-transfer_test4\seg.png',out)

@@ -131,7 +131,9 @@ blacklist = ['D:\\AI\\output\\kos02\\Part3_2', 'D:\AI\output\kos04\Part1_1', 'D:
              'D:\AI\output\kos06\Part1', 'D:\AI\output\kos06\Part5_1', 'D:\AI\output\kos06\Part6',
              'D:\AI\output\kos06\Part6_1', 'D:\AI\output\kos06\Part6_2', 'D:\AI\output\kos07\Part0_1',
              'D:\AI\output\kos07\Part4', 'D:\AI\output\kos07\Part6_2', 'D:\AI\output\kos08\Part0',
-             'D:\AI\output\kos08\Part4', 'D:\AI\output\kos08\Part6_2']
+             'D:\AI\output\kos08\Part4', 'D:\AI\output\kos08\Part6_2','D:\AI\output\kos09\Part0',
+             'D:\AI\output\kos09\Part0_1','D:\AI\output\kos09\Part0_2','D:\AI\output\kos09\Part3',
+             'D:\AI\output\kos09\Part3_1','D:\AI\output\kos09\Part4','D:\AI\output\kos09\Part4_1']
 
 
 def main():
