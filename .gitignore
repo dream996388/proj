@@ -1,5 +1,5 @@
 result_analyze/
-v14/
-v15/
-PaddleSeg/custom_dataset/KolektorSDD/
-
+/v14/
+/v15/
+/PaddleSeg/custom_dataset/KolektorSDD/
+/PaddleSeg/custom_dataset/v14/
