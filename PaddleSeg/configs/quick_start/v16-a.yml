@@ -3,8 +3,8 @@ iters: 8000
 
 train_dataset:
   type: Dataset
-  dataset_root: custom_dataset/latest
-  train_path: custom_dataset/latest/train_list.txt
+  dataset_root: custom_dataset/v16-a
+  train_path: custom_dataset/v16-a/train_list.txt
   num_classes: 2
   transforms:
     - type: Resize
@@ -14,8 +14,8 @@ train_dataset:
 
 val_dataset:
   type: Dataset
-  dataset_root: custom_dataset/latest
-  val_path: custom_dataset/latest/val_list.txt
+  dataset_root: custom_dataset/v16-a
+  val_path: custom_dataset/v16-a/val_list.txt
   num_classes: 2
   transforms:
     - type: Resize
