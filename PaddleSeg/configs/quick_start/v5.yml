@@ -7,17 +7,17 @@ train_dataset:
   train_path: custom_dataset/KolektorSDD/train_list.txt
   num_classes: 2
   transforms:
-    - type: Resize
-      target_size: [512, 1280]
-    - type: Normalize
     - type: RandomHorizontalFlip
       prob : 0.5
     - type: RandomVerticalFlip
       prob : 0.5
-    - type: RandomRotation
-      max_rotation : 15
-      im_padding_value : [127.5, 127.5, 127.5]
-      label_padding_value : 255
+    # - type: RandomRotation
+    #   max_rotation : 15
+    #   im_padding_value : [127.5, 127.5, 127.5]
+    #   label_padding_value : 255
+    - type: Resize
+      target_size: [512, 1280]
+    - type: Normalize
   mode: train
 
 val_dataset:

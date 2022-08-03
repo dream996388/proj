@@ -237,4 +237,3 @@ train/kos30/Part4.jpg train/kos30/Part4_label.png
 train/kos30/Part5.jpg train/kos30/Part5_label.png
 train/kos30/Part6.jpg train/kos30/Part6_label.png
 train/kos30/Part7.jpg train/kos30/Part7_label.png
-
