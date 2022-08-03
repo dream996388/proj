@@ -4,6 +4,8 @@ result_analyze/
 /v16/
 /v16-a/
 /v17/
+/v18/
+/v19/
 /src_v5/
 /src_v6/
 /PaddleSeg/custom_dataset/KolektorSDD/
@@ -13,3 +15,4 @@ result_analyze/
 /PaddleSeg/custom_dataset/v16-a/
 /PaddleSeg/custom_dataset/v17/
 /PaddleSeg/custom_dataset/src_v6_dataset/
+/PaddleSeg/custom_dataset/v19/
