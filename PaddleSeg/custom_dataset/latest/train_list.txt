@@ -267,9 +267,6 @@ train/kos30/Part4.jpg train/kos30/Part4_label.png
 train/kos30/Part5.jpg train/kos30/Part5_label.png
 train/kos30/Part6.jpg train/kos30/Part6_label.png
 train/kos30/Part7.jpg train/kos30/Part7_label.png
-train/syn/kos28-3/img.jpg train/syn/kos28-3/img_label.png
-train/syn/kos28-3/img_leftright.jpg train/syn/kos28-3/img_leftright_label.png
-train/syn/kos28-3/img_updown.jpg train/syn/kos28-3/img_updown_label.png
 train/syn/new-Part3/img.jpg train/syn/new-Part3/img_label.png
 train/syn/new-Part3/img_leftright.jpg train/syn/new-Part3/img_leftright_label.png
 train/syn/new-Part3/img_updown.jpg train/syn/new-Part3/img_updown_label.png
