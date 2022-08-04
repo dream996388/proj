@@ -1,4 +1,3 @@
-
 train/kos01/Part5.jpg train/kos01/Part5_label.png
 train/kos01/Part5_leftright.jpg train/kos01/Part5_leftright_label.png
 train/kos01/Part6.jpg train/kos01/Part6_label.png
@@ -118,3 +117,5 @@ train/kos29/Part0_updown.jpg train/kos29/Part0_updown_label.png
 train/kos30/Part0.jpg train/kos30/Part0_label.png
 train/kos30/Part0_leftright.jpg train/kos30/Part0_leftright_label.png
 train/kos30/Part1.jpg train/kos30/Part1_label.png
+train/syn/kos28-3/img.jpg train/syn/kos28-3/img_label.png
+train/syn/kos28-3/img_updown.jpg train/syn/kos28-3/img_updown_label.png
