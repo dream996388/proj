@@ -12,6 +12,10 @@ result_analyze/
 /v01-a/
 /src_v5/
 /src_v6/
+/v00/
+/v00+kos28-3/
+/PaddleSeg/predict.bat
+/PaddleSeg/custom_dataset/t1/
 /PaddleSeg/custom_dataset/KolektorSDD/
 /PaddleSeg/custom_dataset/v14/
 /PaddleSeg/custom_dataset/v15/

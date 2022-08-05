@@ -3,10 +3,14 @@ iters: 5000
 
 train_dataset:
   type: Dataset
-  dataset_root: custom_dataset/latest
-  train_path: custom_dataset/latest/train_list.txt
+  dataset_root: custom_dataset/KolektorSDD
+  train_path: custom_dataset/KolektorSDD/train_list.txt
   num_classes: 2
   transforms:
+    - type: RandomHorizontalFlip
+      prob : 0.5
+    - type: RandomVerticalFlip
+      prob : 0.5
     - type: Resize
       target_size: [512, 1280]
     - type: Normalize
@@ -14,8 +18,8 @@ train_dataset:
 
 val_dataset:
   type: Dataset
-  dataset_root: custom_dataset/latest
-  val_path: custom_dataset/latest/val_list.txt
+  dataset_root: custom_dataset/KolektorSDD
+  val_path: custom_dataset/KolektorSDD/val_list.txt
   num_classes: 2
   transforms:
     - type: Resize
