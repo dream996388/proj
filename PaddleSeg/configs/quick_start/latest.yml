@@ -15,7 +15,7 @@ train_dataset:
 val_dataset:
   type: Dataset
   dataset_root: custom_dataset/latest
-  val_path: custom_dataset/latest/test_list.txt
+  val_path: custom_dataset/latest/val_list.txt
   num_classes: 2
   transforms:
     - type: Resize
