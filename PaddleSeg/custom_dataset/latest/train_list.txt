@@ -36,3 +36,9 @@ train/syn-shallow/kos23-Part6.jpg train/syn-shallow/kos23-Part6_label.png
 train/syn-shallow/kos23-Part6_updown.jpg train/syn-shallow/kos23-Part6_updown_label.png
 train/syn-shallow/kos29-Part0-flip.jpg train/syn-shallow/kos29-Part0-flip_label.png
 train/syn-shallow/kos29-Part0-flip_updown.jpg train/syn-shallow/kos29-Part0-flip_updown_label.png
+train/deep2/kos01-Part5.jpg train/deep2/kos01-Part5_label.png
+train/deep2/kos01-Part5_updown.jpg train/deep2/kos01-Part5_updown_label.png
+train/deep2/kos23-Part6.jpg train/deep2/kos23-Part6_label.png
+train/deep2/kos23-Part6_updown.jpg train/deep2/kos23-Part6_updown_label.png
+train/deep2/kos27-Part0.jpg train/deep2/kos27-Part0_label.png
+train/deep2/kos27-Part0_updown.jpg train/deep2/kos27-Part0_updown_label.png
