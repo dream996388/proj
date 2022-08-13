@@ -15,6 +15,7 @@ result_analyze/
 /v00/
 /v010/
 /v011/
+/v012/
 /v00+kos28-3/
 /PaddleSeg/predict.bat
 /PaddleSeg/val.bat
@@ -28,3 +29,4 @@ result_analyze/
 /PaddleSeg/custom_dataset/v17/
 /PaddleSeg/custom_dataset/src_v6_dataset/
 /PaddleSeg/custom_dataset/v19/
+/PaddleSeg/custom_dataset/latest/train/all-syn-shallow/
